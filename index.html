@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Episcopal Church of the Holy Apostles | Hilo, Hawaiʻi</title>
+  <meta name="description" content="A place where friends become family. All are welcome! Episcopal Church of the Holy Apostles is an open, affirming, and loving parish in Hilo, Hawaiʻi.">
+  <meta name="keywords" content="Episcopal Church of the Holy Apostles, Hilo Church, Hawaii Episcopal Diocese, Holy Apostles Hilo, Labyrinth Hilo">
+
+  <!-- Favicon / Logo -->
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <meta property="og:title" content="Episcopal Church of the Holy Apostles | Hilo, Hawaiʻi">
+  <meta property="og:description" content="A place where friends become family. All are welcome! No exceptions.">
+  <meta property="og:image" content="assets/logo.jpg">
+
+  <!-- Google Fonts: Cormorant Garamond, Cinzel, Plus Jakarta Sans, Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-container">
+      <span class="announcement-badge"><i class="fa-solid fa-church"></i> Aloha &bull; All Are Welcome</span>
+      <p class="announcement-text">
+        Sundays: Holy Eucharist at <strong>8:00 AM</strong> &amp; <strong>10:00 AM HST</strong> &bull; 
+        <em>A place where friends become family &bull; No exceptions!</em>
+      </p>
+      <a href="#worship" class="announcement-link">Worship Times <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Left Floating Social Rail -->
+  <aside class="floating-social-rail" aria-label="Social Channels">
+    <div class="rail-line top"></div>
+    <a href="https://www.facebook.com/churchoftheholyapostleshilo/" target="_blank" rel="noopener noreferrer" class="rail-icon" title="Church Facebook Page">
+      <i class="fa-brands fa-facebook-f"></i>
+      <span class="rail-tooltip">Facebook Community</span>
+    </a>
+    <a href="https://www.echa-hilo.org/" target="_blank" rel="noopener noreferrer" class="rail-icon" title="Original Parish Website">
+      <i class="fa-solid fa-globe"></i>
+      <span class="rail-tooltip">Church Website</span>
+    </a>
+    <a href="https://www.youtube.com/channel/UCJdmklHBemAF02-ytAf-knA" target="_blank" rel="noopener noreferrer" class="rail-icon" title="YouTube Channel">
+      <i class="fa-brands fa-youtube"></i>
+      <span class="rail-tooltip">YouTube Channel</span>
+    </a>
+    <a href="mailto:office@echa-hilo.org" class="rail-icon" title="Send Email">
+      <i class="fa-regular fa-envelope"></i>
+      <span class="rail-tooltip">office@echa-hilo.org</span>
+    </a>
+    <a href="tel:8089355545" class="rail-icon" title="Call Parish Office">
+      <i class="fa-solid fa-phone"></i>
+      <span class="rail-tooltip">(808) 935-5545</span>
+    </a>
+    <div class="rail-line bottom"></div>
+  </aside>
+
+  <!-- Right Floating Pagination Dots -->
+  <aside class="floating-pagination-dots" aria-label="Slide Indicator">
+    <button class="dot-btn active" data-slide="0" aria-label="Slide 1">
+      <span class="dot-num">01</span>
+      <span class="dot-fill"></span>
+    </button>
+    <button class="dot-btn" data-slide="1" aria-label="Slide 2">
+      <span class="dot-num">02</span>
+      <span class="dot-fill"></span>
+    </button>
+    <button class="dot-btn" data-slide="2" aria-label="Slide 3">
+      <span class="dot-num">03</span>
+      <span class="dot-fill"></span>
+    </button>
+  </aside>
+
+  <!-- Navigation Bar (Clean Soft Glassmorphic) -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-identity">
+        <div class="brand-crest-wrapper">
+          <img src="assets/logo.jpg" alt="Holy Apostles Crest" class="brand-crest">
+        </div>
+        <div class="brand-titles">
+          <span class="brand-prefix">EPISCOPAL CHURCH OF THE</span>
+          <span class="brand-name">HOLY APOSTLES</span>
+          <span class="brand-location">HILO, HAWAIʻI &bull; ESTABLISHED 1903</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="desktop-navigation" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-item active">Home</a></li>
+          <li><a href="#heritage" class="nav-item">Our Heritage</a></li>
+          <li><a href="#worship" class="nav-item">Worship Schedule</a></li>
+          <li><a href="#labyrinth" class="nav-item">Labyrinth</a></li>
+          <li><a href="#ministries" class="nav-item">Ministries</a></li>
+          <li><a href="#giving" class="nav-item">Offering</a></li>
+          <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="#giving" class="btn-primary-action">
+          <i class="fa-solid fa-hand-holding-heart"></i>
+          <span>Make an Offering</span>
+        </a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/logo.jpg" alt="Logo" class="drawer-logo">
+        <div>
+          <h4>Holy Apostles</h4>
+          <p>Hilo, Hawaiʻi</p>
+        </div>
+      </div>
+      <button class="drawer-close" id="drawerClose" aria-label="Close Navigation Menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="m-link">Home</a></li>
+      <li><a href="#heritage" class="m-link">Our Heritage in Hawaiʻi</a></li>
+      <li><a href="#worship" class="m-link">Worship Times</a></li>
+      <li><a href="#labyrinth" class="m-link">Sacred Labyrinth</a></li>
+      <li><a href="#ministries" class="m-link">Parish Ministries</a></li>
+      <li><a href="#giving" class="m-link">Make an Offering</a></li>
+      <li><a href="#contact" class="m-link">Contact &amp; Visit</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <a href="#giving" class="btn-primary-action block">Make an Offering</a>
+      <div class="drawer-socials">
+        <a href="https://www.facebook.com/churchoftheholyapostleshilo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.echa-hilo.org/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+        <a href="tel:8089355545"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:office@echa-hilo.org"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==============================================
+         1. FULL WIDTH HERO BANNER & SLIDER (WHITE / SOFT THEME)
+         ============================================== -->
+    <section class="hero-slider-section full-width" id="hero">
+      <div class="slider-viewport" id="sliderViewport">
+        
+        <!-- Slide 1: Actual Church Sanctuary -->
+        <div class="slide-item active" style="--bg-image: url('assets/banner_sanctuary.png');">
+          <div class="slide-overlay-soft"></div>
+          <div class="slide-content-wrap">
+            <div class="slide-inner">
+              <div class="soft-pill-tag">
+                <i class="fa-solid fa-dove"></i>
+                <span>ALOHA &bull; WELCOME TO HOLY APOSTLES</span>
+              </div>
+              <h1 class="hero-title">
+                A Place Where Friends<br>
+                Become Family. <span class="accent-text">All Are Welcome!</span>
+              </h1>
+              <p class="hero-subtitle">
+                An open, affirming, and loving Episcopal community in Hilo, Hawaiʻi. 
+                Rooted in deep faith, social justice, and unconditional Christian hospitality for all people—no exceptions.
+              </p>
+              <div class="hero-button-group">
+                <a href="#worship" class="btn-primary-action">
+                  <span>View Worship Schedule</span>
+                  <i class="fa-solid fa-calendar-days"></i>
+                </a>
+                <a href="#heritage" class="btn-soft-outline">
+                  <span>Our Heritage in Hawaiʻi</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Real Church Congregation -->
+        <div class="slide-item" style="--bg-image: url('assets/congregation.png');">
+          <div class="slide-overlay-soft"></div>
+          <div class="slide-content-wrap">
+            <div class="slide-inner">
+              <div class="soft-pill-tag">
+                <i class="fa-solid fa-users"></i>
+                <span>OUR PARISH ʻOHANA &bull; COMMUNITY IN FAITH</span>
+              </div>
+              <h1 class="hero-title">
+                Growing Together in Grace,<br>
+                <span class="accent-text">Service &amp; Fellowship</span>
+              </h1>
+              <p class="hero-subtitle">
+                Over 130 families united in prayer and outreach across East Hawaiʻi. 
+                Experience a joyful sanctuary where hearts connect and lives are enriched.
+              </p>
+              <div class="hero-button-group">
+                <a href="#ministries" class="btn-primary-action">
+                  <span>Explore Ministries</span>
+                  <i class="fa-solid fa-hands-holding-heart"></i>
+                </a>
+                <a href="#labyrinth" class="btn-soft-outline">
+                  <span>Walk The Labyrinth</span>
+                  <i class="fa-solid fa-compass"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Church Building Across UH Hilo -->
+        <div class="slide-item" style="--bg-image: url('assets/banner_ministry.jpg');">
+          <div class="slide-overlay-soft"></div>
+          <div class="slide-content-wrap">
+            <div class="slide-inner">
+              <div class="soft-pill-tag">
+                <i class="fa-solid fa-landmark"></i>
+                <span>KAPIʻOLANI STREET CAMPUS &bull; EST. 1903</span>
+              </div>
+              <h1 class="hero-title">
+                Over A Century of Blessings<br>
+                <span class="accent-text">In The Heart of Hilo</span>
+              </h1>
+              <p class="hero-subtitle">
+                Conveniently located across from the University of Hawaiʻi at Hilo. 
+                Join us each Sunday at 8:00 AM &amp; 10:00 AM for Holy Eucharist Rite II.
+              </p>
+              <div class="hero-button-group">
+                <a href="#contact" class="btn-primary-action">
+                  <span>Plan Your Visit</span>
+                  <i class="fa-solid fa-location-dot"></i>
+                </a>
+                <a href="https://www.facebook.com/churchoftheholyapostleshilo/" target="_blank" class="btn-soft-outline">
+                  <i class="fa-brands fa-facebook"></i>
+                  <span>Visit Our Facebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Slider Arrows -->
+      <button class="slider-arrow prev" id="sliderPrev" aria-label="Previous Slide">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="slider-arrow next" id="sliderNext" aria-label="Next Slide">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <!-- Slider Progress Bar -->
+      <div class="slider-progress-track">
+        <div class="slider-progress-bar" id="sliderProgress"></div>
+      </div>
+
+      <!-- ==============================================================
+           FLOATING GLASS QUICK DOCK (SOFT & GENTLE)
+           ============================================================== -->
+      <div class="hero-floating-dock full-width">
+        <div class="dock-container">
+          
+          <!-- Dock Card 1: Sunday Services -->
+          <div class="dock-card dock-card-accent">
+            <div class="dock-card-header">
+              <div class="dock-icon"><i class="fa-solid fa-church"></i></div>
+              <div class="dock-meta">
+                <span class="dock-badge">SUNDAY WORSHIP</span>
+                <span class="dock-status">8:00 AM &amp; 10:00 AM HST</span>
+              </div>
+            </div>
+            <h3 class="dock-title">Holy Eucharist Rite II</h3>
+            <p class="dock-desc">
+              Early spoken communion and 10:00 AM full choral liturgy. (3rd Sundays combined at 9:00 AM).
+            </p>
+            <a href="#worship" class="dock-link">
+              <span>View Service Details</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Dock Card 2: Outreach -->
+          <div class="dock-card dock-card-white">
+            <div class="dock-card-header">
+              <div class="dock-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+              <div class="dock-meta">
+                <span class="dock-badge">COMMUNITY OUTREACH</span>
+                <span class="dock-status">3rd Thursday Monthly</span>
+              </div>
+            </div>
+            <h3 class="dock-title">Peanut Butter Meal Ministry</h3>
+            <p class="dock-desc">
+              Preparing and serving hot dinners for Hilo neighbors on Waiānuenue Avenue each month.
+            </p>
+            <a href="#ministries" class="dock-link">
+              <span>Community Impact</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Dock Card 3: Weekly Fellowships -->
+          <div class="dock-card dock-card-white">
+            <div class="dock-card-header">
+              <div class="dock-icon"><i class="fa-regular fa-calendar-check"></i></div>
+              <div class="dock-meta">
+                <span class="dock-badge">CAMPUS &amp; LANAI</span>
+                <span class="dock-status">Mon, Tue, Thu, Sat</span>
+              </div>
+            </div>
+            <h3 class="dock-title">Centering Prayer, AA &amp; Lanai Zumba</h3>
+            <p class="dock-desc">
+              Zoom Centering Prayer, Overeaters Anonymous, Step-Sisters AA, and joyful Zumba on the lanai.
+            </p>
+            <a href="#worship" class="dock-link">
+              <span>Weekly Calendar</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         2. OUR HERITAGE & ROYAL ROOTS (SOFT WHITE SECTION)
+         ============================================== -->
+    <section class="heritage-section full-width" id="heritage">
+      <div class="content-container">
+        
+        <div class="section-header text-center" data-reveal="fade-up">
+          <div class="soft-pill-tag">
+            <i class="fa-solid fa-scroll"></i>
+            <span>OUR SACRED HERITAGE IN HAWAIʻI</span>
+          </div>
+          <h2 class="section-title">
+            Founded in 1903 on Faith, Love,<br>
+            <span class="accent-text">&amp; The Pennies of Children</span>
+          </h2>
+          <div class="soft-divider">
+            <span class="line"></span>
+            <span class="cross-icon"><i class="fa-solid fa-cross"></i></span>
+            <span class="line"></span>
+          </div>
+          <p class="section-subtitle">
+            Church of the Holy Apostles is the only Episcopal parish in Hilo, Hawaiʻi. 
+            A historic sanctuary rooted in royal Hawaiian history and continuous community care.
+          </p>
+        </div>
+
+        <div class="heritage-grid">
+          
+          <!-- Heritage Card 1: Historic Building & Children's Pennies -->
+          <div class="heritage-card" data-reveal="fade-up" data-delay="100">
+            <div class="heritage-card-thumb zoom-hover-wrap">
+              <img src="assets/church_historic.jpg" alt="Holy Apostles Historic Church in 1903" class="zoom-hover-img">
+              <span class="history-year-tag">Est. 1903</span>
+            </div>
+            <div class="heritage-card-body">
+              <h3 class="card-heading">A Gift of Grateful Love</h3>
+              <p>
+                Our mission was founded in 1903 with loving funding from Holy Apostles church in Philadelphia, 
+                Pennsylvania—much of it raised by Sunday School children who donated their pennies. 
+                In enduring gratitude for their assistance, our parish proudly took their name.
+              </p>
+            </div>
+          </div>
+
+          <!-- Heritage Card 2: Royal Hawaiian Legacy -->
+          <div class="heritage-card featured-heritage-card" data-reveal="fade-up" data-delay="200">
+            <div class="heritage-card-thumb zoom-hover-wrap">
+              <img src="assets/royal_patrons.jpg" alt="Queen Emma & King Kamehameha IV" class="zoom-hover-img">
+              <span class="history-year-tag gold">1862</span>
+            </div>
+            <div class="heritage-card-body">
+              <h3 class="card-heading">King Kamehameha IV &amp; Queen Emma</h3>
+              <p>
+                The Episcopal Church in Hawaiʻi was invited by King Kamehameha IV and Queen Emma in 1862. 
+                The royal family supported church missions across the islands. 
+                Queen Liliʻuokalani depended upon the spiritual comfort of the Episcopal Church following the 1893 overthrow.
+              </p>
+            </div>
+          </div>
+
+          <!-- Heritage Card 3: Moving Across UH Hilo -->
+          <div class="heritage-card" data-reveal="fade-up" data-delay="300">
+            <div class="heritage-card-thumb zoom-hover-wrap">
+              <img src="assets/church_building.jpg" alt="Holy Apostles Church Campus on Kapiʻolani Street" class="zoom-hover-img">
+              <span class="history-year-tag">1963</span>
+            </div>
+            <div class="heritage-card-body">
+              <h3 class="card-heading">Kapiʻolani Campus &amp; Stained Glass</h3>
+              <p>
+                Originally built on Waiānuenue Avenue, our parish relocated in 1963 to our present peaceful location 
+                across from the University of Hawaiʻi at Hilo. We lovingly brought with us the original 
+                stained-glass windows that continue to illuminate our worship sanctuary today.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Soft Quote Banner -->
+        <div class="soft-quote-box" data-reveal="zoom-in">
+          <div class="quote-symbol">&ldquo;</div>
+          <blockquote>
+            The parish has over 130 families. In addition to holding regular worship, we endeavor to reach out 
+            to the community of Hilo to change lives and create a better, more peaceful world. 
+            We are committed to social justice, and known for being an open and affirming community.
+          </blockquote>
+          <div class="quote-author">
+            <span class="author-name">Episcopal Church of the Holy Apostles</span>
+            <span class="author-title">Hilo, Hawaiʻi &bull; Episcopal Diocese of Hawaiʻi</span>
+          </div>
+        </div>
+
+        <!-- Key Milestones -->
+        <div class="heritage-stats-bar" data-reveal="fade-up">
+          <div class="stat-item">
+            <span class="stat-number">123+</span>
+            <span class="stat-label">Years of Ministry in Hilo</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">130+</span>
+            <span class="stat-label">Parish Families</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Open, Affirming &amp; Inclusive</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">1963</span>
+            <span class="stat-label">Campus on Kapiʻolani St</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================================
+         3. WORSHIP SCHEDULE & SACRAMENTS
+         ============================================== -->
+    <section class="worship-section full-width" id="worship">
+      <div class="content-container">
+        
+        <div class="section-header text-center" data-reveal="fade-up">
+          <div class="soft-pill-tag">
+            <i class="fa-solid fa-clock"></i>
+            <span>JOIN US IN WORSHIP &amp; PRAYER</span>
+          </div>
+          <h2 class="section-title">
+            Worship Times &amp; Weekly Gatherings<br>
+            <span class="accent-text">Sunday Eucharist &amp; Lanai Life</span>
+          </h2>
+          <p class="section-subtitle">
+            Our liturgy combines traditional Episcopal elegance with heartfelt Hawaiian hymns and prayers. 
+            Come as you are—casual attire and slippers are always welcome!
+          </p>
+        </div>
+
+        <!-- Worship Tab Buttons -->
+        <div class="schedule-tabs-container" data-reveal="fade-up">
+          <div class="schedule-tabs" role="tablist">
+            <button class="sched-tab-btn active" data-tab="sunday-regular" role="tab" aria-selected="true">
+              <i class="fa-solid fa-church"></i>
+              <span>Sundays (1st, 2nd, 4th, 5th)</span>
+            </button>
+            <button class="sched-tab-btn" data-tab="sunday-third" role="tab" aria-selected="false">
+              <i class="fa-solid fa-users"></i>
+              <span>Sundays (3rd Sunday Combined)</span>
+            </button>
+            <button class="sched-tab-btn" data-tab="weekday" role="tab" aria-selected="false">
+              <i class="fa-solid fa-calendar-week"></i>
+              <span>Weekday Fellowships</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Schedule Content Panels -->
+        <div class="schedule-panels-wrapper" data-reveal="fade-up">
+          
+          <!-- Panel 1: Regular Sundays -->
+          <div class="schedule-panel active" id="tab-sunday-regular">
+            <div class="schedule-grid">
+              
+              <div class="worship-card">
+                <div class="worship-header-row">
+                  <div class="worship-time-tag">8:00 AM HST</div>
+                  <span class="service-pill">Spoken Service</span>
+                </div>
+                <div class="worship-details">
+                  <h3>Holy Eucharist Rite II</h3>
+                  <p class="service-desc">
+                    A peaceful, spoken Eucharist service without music. An intimate morning worship 
+                    with scripture, reflection, and quiet communion.
+                  </p>
+                  <ul class="service-features">
+                    <li><i class="fa-solid fa-check"></i> Spoken Word &amp; Sermon</li>
+                    <li><i class="fa-solid fa-check"></i> Holy Communion Rite II</li>
+                    <li><i class="fa-solid fa-check"></i> In-Person in Sanctuary</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="worship-card featured-service">
+                <div class="worship-header-row">
+                  <div class="worship-time-tag accent">10:00 AM HST</div>
+                  <span class="service-pill accent">Choir &amp; Music</span>
+                </div>
+                <div class="worship-details">
+                  <h3>Holy Eucharist Rite II with Choir</h3>
+                  <p class="service-desc">
+                    Our vibrant main service featuring choral anthems, organ and instrumental music, 
+                    prayers in English and ʻŌlelo Hawaiʻi, followed by Aloha fellowship.
+                  </p>
+                  <ul class="service-features">
+                    <li><i class="fa-solid fa-check"></i> Sacred Choral Anthems &amp; Hymns</li>
+                    <li><i class="fa-solid fa-check"></i> English &amp; Hawaiian Language Prayers</li>
+                    <li><i class="fa-solid fa-check"></i> Aloha Coffee Hour with Fresh Bread &amp; Leis</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Panel 2: 3rd Sunday -->
+          <div class="schedule-panel" id="tab-sunday-third">
+            <div class="combined-service-card">
+              <div class="combined-header">
+                <div class="combined-tag">3RD SUNDAY OF THE MONTH</div>
+                <h3>Combined Holy Eucharist II at 9:00 AM</h3>
+                <p>
+                  On the third Sunday of each month, both early and late congregations gather together 
+                  for a single unified 9:00 AM service, followed by a delicious parish potluck on the lanai!
+                </p>
+              </div>
+              <div class="combined-body">
+                <div class="combined-info-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <div>
+                    <strong>Service Time</strong>
+                    <span>9:00 AM HST (Combined)</span>
+                  </div>
+                </div>
+                <div class="combined-info-item">
+                  <i class="fa-solid fa-utensils"></i>
+                  <div>
+                    <strong>Parish Potluck</strong>
+                    <span>Fellowship lunch on the Lanai</span>
+                  </div>
+                </div>
+                <div class="combined-info-item">
+                  <i class="fa-solid fa-users"></i>
+                  <div>
+                    <strong>All Welcome</strong>
+                    <span>Bring a dish or simply come enjoy!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: Weekday Fellowships -->
+          <div class="schedule-panel" id="tab-weekday">
+            <div class="weekday-grid">
+              
+              <div class="weekday-card">
+                <div class="weekday-day">MONDAYS</div>
+                <h4>Centering Prayer</h4>
+                <div class="weekday-meta"><i class="fa-solid fa-video"></i> 3:30 PM HST via ZOOM</div>
+                <p>Contemplative silent prayer rooted in Christian tradition, with Contemplative Outreach Hawaii.</p>
+              </div>
+
+              <div class="weekday-card">
+                <div class="weekday-day">TUESDAYS</div>
+                <h4>Overeaters &amp; AA Step-Sisters</h4>
+                <div class="weekday-meta"><i class="fa-solid fa-location-dot"></i> 3:00 PM &amp; 6:30 PM on Lanai</div>
+                <p>Overeaters Anonymous in the back building (3:00 PM); Step-Sisters Women's AA on the Lanai (6:30 PM).</p>
+              </div>
+
+              <div class="weekday-card">
+                <div class="weekday-day">WEDNESDAYS</div>
+                <h4>Choir Rehearsal &amp; Music</h4>
+                <div class="weekday-meta"><i class="fa-solid fa-music"></i> 6:00 PM in Sanctuary</div>
+                <p>Choral anthems, organ preludes, and Hawaiian liturgical hymns. All voices are welcome.</p>
+              </div>
+
+              <div class="weekday-card">
+                <div class="weekday-day">THURSDAYS</div>
+                <h4>Lanai Zumba &amp; Outreach Dinners</h4>
+                <div class="weekday-meta"><i class="fa-solid fa-heart-pulse"></i> 5:30 PM on Lanai</div>
+                <p>Zumba with Dee on the outdoor lanai. On 3rd Thursdays: Monthly Peanut Butter Outreach dinner prep.</p>
+              </div>
+
+              <div class="weekday-card">
+                <div class="weekday-day">SATURDAYS</div>
+                <h4>Narcotics Anonymous (NA)</h4>
+                <div class="weekday-meta"><i class="fa-solid fa-users"></i> 7:00 PM &ndash; 8:30 PM on Lanai</div>
+                <p>A supportive, safe weekly recovery meeting held on the open-air church lanai.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Facebook Link Showcase Box -->
+        <div class="facebook-community-box" data-reveal="fade-up">
+          <div class="fb-box-icon"><i class="fa-brands fa-facebook"></i></div>
+          <div class="fb-box-content">
+            <h3>Connect with Holy Apostles on Facebook</h3>
+            <p>
+              View our weekly service videos, community announcements, photos of parish life, 
+              and parish profile updates on our official Facebook page <strong>@churchoftheholyapostleshilo</strong>.
+            </p>
+          </div>
+          <a href="https://www.facebook.com/churchoftheholyapostleshilo/" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+            <span>Visit Facebook Page</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================================
+         4. SACRED LABYRINTH SHOWCASE
+         ============================================== -->
+    <section class="labyrinth-section full-width" id="labyrinth">
+      <div class="content-container">
+        
+        <div class="labyrinth-layout">
+          
+          <div class="labyrinth-media" data-reveal="fade-right">
+            <div class="labyrinth-image-frame zoom-hover-wrap">
+              <img src="assets/banner_labyrinth.jpg" alt="Holy Apostles Church Grounds and Labyrinth in Hilo" class="zoom-hover-img">
+              <div class="frame-tag-badge">
+                <i class="fa-solid fa-leaf"></i>
+                <span>Open 7 Days to the Public</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="labyrinth-text" data-reveal="fade-left">
+            <div class="soft-pill-tag">
+              <i class="fa-solid fa-shoe-prints"></i>
+              <span>MEDITATION PATH &bull; OPEN TO ALL</span>
+            </div>
+            <h2 class="section-title">
+              Walk The Sacred Labyrinth<br>
+              <span class="accent-text">A Path of Healing &amp; Peace</span>
+            </h2>
+            <div class="soft-divider left">
+              <span class="line"></span>
+              <span class="cross-icon"><i class="fa-solid fa-cross"></i></span>
+              <span class="line"></span>
+            </div>
+            <p class="labyrinth-lead">
+              Church of the Holy Apostles is blessed to have a permanent prayer labyrinth on our 
+              church grounds in Hilo that is open freely to everyone, 7 days a week from sunrise to sunset.
+            </p>
+            <p>
+              Unlike a maze, which has deceptive dead ends, a <strong>labyrinth has a single unicursal path</strong> 
+              leading gently to the center and back out again. You cannot get lost. It is a 3,500-year-old sacred 
+              tool for quiet reflection, meditation, and spiritual renewal.
+            </p>
+
+            <div class="labyrinth-steps-grid">
+              <div class="lab-step">
+                <div class="step-num">1</div>
+                <div>
+                  <strong>Release (Purgation)</strong>
+                  <span>Shed daily burdens, quiet the mind, and breathe peacefully as you walk toward the center.</span>
+                </div>
+              </div>
+              <div class="lab-step">
+                <div class="step-num">2</div>
+                <div>
+                  <strong>Receive (Illumination)</strong>
+                  <span>Pause at the center. Open your heart to peace, prayer, and spiritual comfort.</span>
+                </div>
+              </div>
+              <div class="lab-step">
+                <div class="step-num">3</div>
+                <div>
+                  <strong>Return (Union)</strong>
+                  <span>Follow the path outward feeling renewed, taking peace and love back into your day.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="labyrinth-cta">
+              <a href="#contact" class="btn-primary-action">
+                <i class="fa-solid fa-location-arrow"></i>
+                <span>Directions to Church Grounds</span>
+              </a>
+              <span class="lab-note"><i class="fa-solid fa-sun"></i> Free &bull; Open Daily Dawn to Dusk</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================================
+         5. PARISH MINISTRIES (REAL CHURCH PHOTOS)
+         ============================================== -->
+    <section class="ministries-section full-width" id="ministries">
+      <div class="content-container">
+        
+        <div class="section-header text-center" data-reveal="fade-up">
+          <div class="soft-pill-tag">
+            <i class="fa-solid fa-hands-holding"></i>
+            <span>FAITH IN ACTION &bull; REAL STORIES</span>
+          </div>
+          <h2 class="section-title">
+            Our Ministries &amp; Community Outreach<br>
+            <span class="accent-text">Love, Care &amp; Service in Hilo</span>
+          </h2>
+          <p class="section-subtitle">
+            Faith is lived through compassionate action. Explore how our parishioners 
+            serve our island neighbors with open hearts and hands.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="ministry-filter-bar" data-reveal="fade-up">
+          <button class="filter-btn active" data-filter="all">All Ministries</button>
+          <button class="filter-btn" data-filter="outreach">Community Outreach</button>
+          <button class="filter-btn" data-filter="fellowship">ʻOhana &amp; Fellowship</button>
+          <button class="filter-btn" data-filter="worship">Worship &amp; Liturgy</button>
+        </div>
+
+        <!-- Ministry Cards Grid (Real Photos) -->
+        <div class="ministries-grid">
+          
+          <!-- Card 1: Peanut Butter Ministry (Real Team Photo) -->
+          <div class="ministry-card" data-category="outreach" data-reveal="fade-up">
+            <div class="ministry-img-wrap zoom-hover-wrap">
+              <img src="assets/peanut_butter_team.jpg" alt="Peanut Butter Ministry Team in Kitchen" class="zoom-hover-img">
+              <div class="category-pill">Outreach</div>
+            </div>
+            <div class="ministry-body">
+              <h3 class="ministry-title">The Peanut Butter Ministry</h3>
+              <p class="ministry-desc">
+                On the third Thursday of each month, our volunteer team prepares hearty meals in the afternoon 
+                and serves dinner at the Methodist Church on Waiānuenue Avenue for community members in need.
+              </p>
+              <div class="ministry-footer">
+                <span><i class="fa-regular fa-clock"></i> 3rd Thursdays Monthly</span>
+                <span class="tag-affirm"><i class="fa-solid fa-heart"></i> Food Security</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Lanai Gathering & Fellowship (Real Photo) -->
+          <div class="ministry-card" data-category="fellowship" data-reveal="fade-up" data-delay="100">
+            <div class="ministry-img-wrap zoom-hover-wrap">
+              <img src="assets/lanai_gathering.jpg" alt="Parishioners Gathering on Lanai" class="zoom-hover-img">
+              <div class="category-pill">Fellowship</div>
+            </div>
+            <div class="ministry-body">
+              <h3 class="ministry-title">Parish Life &amp; Lanai Fellowship</h3>
+              <p class="ministry-desc">
+                From post-service coffee hours with fresh warm bread to monthly potlucks, 
+                our open-air lanai is where friends become family and all newcomers are warmly embraced with leis.
+              </p>
+              <div class="ministry-footer">
+                <span><i class="fa-regular fa-clock"></i> Every Sunday</span>
+                <span class="tag-affirm"><i class="fa-solid fa-users"></i> Hospitality</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Community Meals & Potluck (Real Photo) -->
+          <div class="ministry-card" data-category="fellowship" data-reveal="fade-up" data-delay="200">
+            <div class="ministry-img-wrap zoom-hover-wrap">
+              <img src="assets/community_potluck.jpg" alt="Church Potluck on Lanai" class="zoom-hover-img">
+              <div class="category-pill">Fellowship</div>
+            </div>
+            <div class="ministry-body">
+              <h3 class="ministry-title">3rd Sunday Aloha Potlucks</h3>
+              <p class="ministry-desc">
+                Following our combined 9:00 AM service on third Sundays, our parish shares dishes, laughter, 
+                and fellowship. A cherished island tradition celebrating gratitude and community.
+              </p>
+              <div class="ministry-footer">
+                <span><i class="fa-regular fa-clock"></i> 3rd Sundays</span>
+                <span class="tag-affirm"><i class="fa-solid fa-utensils"></i> Shared Table</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Parish Youth & Summer Gatherings (Real Photo) -->
+          <div class="ministry-card" data-category="outreach" data-reveal="fade-up" data-delay="300">
+            <div class="ministry-img-wrap zoom-hover-wrap">
+              <img src="assets/parish_youth.jpg" alt="Youth and Family Gathering" class="zoom-hover-img">
+              <div class="category-pill">Outreach</div>
+            </div>
+            <div class="ministry-body">
+              <h3 class="ministry-title">Youth &amp; Kupuna Support</h3>
+              <p class="ministry-desc">
+                Engaging youth programs, Camp Mokulēʻia events, and Meals on Wheels care bags prepared 
+                for homebound elders (kupuna), ensuring no one in our community feels alone.
+              </p>
+              <div class="ministry-footer">
+                <span><i class="fa-regular fa-clock"></i> Ongoing Care</span>
+                <span class="tag-affirm"><i class="fa-solid fa-handshake"></i> Caring ʻOhana</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Diocesan Delegates & Leadership (Real Photo) -->
+          <div class="ministry-card" data-category="worship" data-reveal="fade-up" data-delay="400">
+            <div class="ministry-img-wrap zoom-hover-wrap">
+              <img src="assets/convention_group.jpeg" alt="Holy Apostles Diocesan Delegates" class="zoom-hover-img">
+              <div class="category-pill">Worship</div>
+            </div>
+            <div class="ministry-body">
+              <h3 class="ministry-title">Liturgical &amp; Vestry Leadership</h3>
+              <p class="ministry-desc">
+                Dedicated lay leaders, Altar Guild, Choir musicians, and Diocesan Delegates 
+                representing Holy Apostles at the annual Episcopal Diocese of Hawaiʻi meeting.
+              </p>
+              <div class="ministry-footer">
+                <span><i class="fa-regular fa-clock"></i> Year-round</span>
+                <span class="tag-affirm"><i class="fa-solid fa-cross"></i> Governance</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Community Health & Lanai Zumba (Real Photo) -->
+          <div class="ministry-card" data-category="outreach" data-reveal="fade-up" data-delay="500">
+            <div class="ministry-img-wrap zoom-hover-wrap">
+              <img src="assets/fb_summer_gathering.png" alt="Community Gathering at Church" class="zoom-hover-img">
+              <div class="category-pill">Outreach</div>
+            </div>
+            <div class="ministry-body">
+              <h3 class="ministry-title">Lanai Zumba &amp; Support Groups</h3>
+              <p class="ministry-desc">
+                Opening our campus for health and healing: Thursday Zumba with Dee, 
+                Overeaters Anonymous, Step-Sisters AA, and Saturday Narcotics Anonymous meetings.
+              </p>
+              <div class="ministry-footer">
+                <span><i class="fa-regular fa-clock"></i> Weekly Schedule</span>
+                <span class="tag-affirm"><i class="fa-solid fa-shield-heart"></i> Wellness</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================================
+         6. FAITH & FOCUS 2030 / MAKE AN OFFERING
+         ============================================== -->
+    <section class="giving-section full-width" id="giving">
+      <div class="content-container">
+        
+        <div class="giving-card-banner" data-reveal="zoom-in">
+          <div class="giving-card-grid">
+            
+            <div class="giving-text-col">
+              <div class="soft-pill-tag">
+                <i class="fa-solid fa-seedling"></i>
+                <span>STEWARDSHIP &bull; FAITH &amp; FOCUS 2030</span>
+              </div>
+              <h2 class="giving-title">
+                Make An Offering to Support<br>
+                <span class="accent-text">Our Ministries &amp; Mission</span>
+              </h2>
+              <p class="giving-lead">
+                Every generous gift helps care for our historic sanctuary and public labyrinth, feeds our hungry 
+                neighbors through the Peanut Butter Ministry, and sustains our warm presence in Hilo.
+              </p>
+              
+              <!-- Fund Selection -->
+              <div class="fund-selection-wrap">
+                <span class="fund-title">Designate Your Gift:</span>
+                <div class="fund-options">
+                  <label class="fund-label active">
+                    <input type="radio" name="fund" value="general" checked>
+                    <span>General Operating</span>
+                  </label>
+                  <label class="fund-label">
+                    <input type="radio" name="fund" value="outreach">
+                    <span>Peanut Butter Outreach</span>
+                  </label>
+                  <label class="fund-label">
+                    <input type="radio" name="fund" value="labyrinth">
+                    <span>Labyrinth Preservation</span>
+                  </label>
+                  <label class="fund-label">
+                    <input type="radio" name="fund" value="music">
+                    <span>Choir &amp; Music Fund</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Quick Amounts -->
+              <div class="quick-amounts-wrap">
+                <span class="amount-title">Select an Amount:</span>
+                <div class="amount-buttons">
+                  <button class="amount-btn" data-amt="25">$25</button>
+                  <button class="amount-btn" data-amt="50">$50</button>
+                  <button class="amount-btn active" data-amt="100">$100</button>
+                  <button class="amount-btn" data-amt="250">$250</button>
+                  <button class="amount-btn" data-amt="500">$500</button>
+                </div>
+              </div>
+
+              <div class="giving-actions-row">
+                <a href="https://www.echa-hilo.org/make-an-offering.html" target="_blank" rel="noopener noreferrer" class="btn-primary-action large">
+                  <i class="fa-solid fa-lock"></i>
+                  <span>Proceed with Secure Offering</span>
+                </a>
+                <span class="tax-note"><i class="fa-solid fa-shield-halved"></i> 501(c)(3) Tax Deductible</span>
+              </div>
+            </div>
+
+            <!-- Giving By Mail Info -->
+            <div class="giving-mail-col">
+              <div class="mail-offering-box">
+                <div class="mail-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                <h4>Mail an Offering</h4>
+                <p>Checks may also be made payable and mailed to our parish office:</p>
+                <div class="address-box">
+                  <strong>Episcopal Church of the Holy Apostles</strong><br>
+                  1407 Kapiʻolani Street<br>
+                  Hilo, HI 96720
+                </div>
+                <div class="giving-highlight">
+                  <i class="fa-solid fa-certificate"></i>
+                  <div>
+                    <strong>Faith and Focus 2030</strong>
+                    <span>Adopted by the Vestry to guide our mission into a sustainable future.</span>
+                  </div>
+                </div>
+                <a href="https://www.echa-hilo.org/mission--vision.html" target="_blank" class="link-download-plan">
+                  <i class="fa-solid fa-file-pdf"></i> Read Faith &amp; Focus 2030 Plan
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================================
+         7. LOCATION & CONTACT
+         ============================================== -->
+    <section class="contact-section full-width" id="contact">
+      <div class="content-container">
+        
+        <div class="section-header text-center" data-reveal="fade-up">
+          <div class="soft-pill-tag">
+            <i class="fa-solid fa-envelope"></i>
+            <span>GET IN TOUCH &bull; VISIT OUR SANCTUARY</span>
+          </div>
+          <h2 class="section-title">
+            We Would Love To Welcome You<br>
+            <span class="accent-text">To Holy Apostles in Hilo</span>
+          </h2>
+          <p class="section-subtitle">
+            Located conveniently across from the University of Hawaiʻi at Hilo on Kapiʻolani Street.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-column" data-reveal="fade-right">
+            
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-text">
+                <h4>Church Sanctuary &amp; Campus</h4>
+                <p>1407 Kapiʻolani Street, Hilo, HI 96720<br><em>(Directly across from UH Hilo)</em></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-text">
+                <h4>Phone</h4>
+                <p><a href="tel:8089355545">(808) 935-5545</a></p>
+                <small>Office hours: Tuesday &ndash; Friday 9:00 AM &ndash; 1:00 PM</small>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-text">
+                <h4>Parish Office Email</h4>
+                <p><a href="mailto:office@echa-hilo.org">office@echa-hilo.org</a></p>
+                <small>For prayer requests, pastoral care, and inquiries</small>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="fa-brands fa-facebook"></i></div>
+              <div class="info-text">
+                <h4>Facebook Page</h4>
+                <p><a href="https://www.facebook.com/churchoftheholyapostleshilo/" target="_blank">@churchoftheholyapostleshilo</a></p>
+                <small>Follow us for weekly photos, messages, and parish news</small>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Message Form -->
+          <div class="contact-form-column" data-reveal="fade-left">
+            <div class="contact-form-card">
+              <h3 class="form-title">Send Us A Message or Prayer Request</h3>
+              <p class="form-desc">Whether you are visiting Hilo, planning to join Sunday worship, or would like prayer, our ʻohana is here for you.</p>
+              
+              <form id="contactForm" class="styled-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="userName">Your Full Name *</label>
+                    <input type="text" id="userName" name="name" required placeholder="Jane / John Doe">
+                  </div>
+                  <div class="form-group">
+                    <label for="userEmail">Email Address *</label>
+                    <input type="email" id="userEmail" name="email" required placeholder="you@example.com">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="userSubject">Inquiry Type</label>
+                  <select id="userSubject" name="subject">
+                    <option value="visit">Planning a Sunday Visit</option>
+                    <option value="prayer">Prayer Request</option>
+                    <option value="pastoral">Pastoral Care &amp; Sacraments</option>
+                    <option value="ministry">Volunteering / Peanut Butter Ministry</option>
+                    <option value="labyrinth">Labyrinth Information</option>
+                    <option value="general">General Inquiries</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage">Your Message *</label>
+                  <textarea id="userMessage" name="message" rows="4" required placeholder="How may we assist or pray for you?"></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary-action block" id="formSubmitBtn">
+                  <span>Send Message to Holy Apostles</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <div class="form-status" id="formStatus"></div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       8. SOFT ELEGANT FOOTER
+       ============================================== -->
+  <footer class="site-footer full-width">
+    <div class="content-container">
+      <div class="footer-grid">
+        
+        <!-- Column 1: Parish Identity -->
+        <div class="footer-col brand-col">
+          <div class="footer-brand-header">
+            <img src="assets/logo.jpg" alt="Holy Apostles Crest" class="footer-logo">
+            <div>
+              <h3>Holy Apostles</h3>
+              <span>Episcopal Church &bull; Hilo, HI</span>
+            </div>
+          </div>
+          <p class="footer-mission-statement">
+            A vibrant, welcoming, and open community of faith in East Hawaiʻi. 
+            A place where friends become family and all God's children are embraced.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/churchoftheholyapostleshilo/" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.echa-hilo.org/" target="_blank" rel="noopener noreferrer" title="Church Website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://www.youtube.com/channel/UCJdmklHBemAF02-ytAf-knA" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="mailto:office@echa-hilo.org" title="Email Us"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-nav">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#heritage">Our Heritage in Hawaiʻi</a></li>
+            <li><a href="#worship">Worship Schedule</a></li>
+            <li><a href="#labyrinth">The Sacred Labyrinth</a></li>
+            <li><a href="#ministries">Ministries &amp; Outreach</a></li>
+            <li><a href="#giving">Make an Offering</a></li>
+            <li><a href="#contact">Contact &amp; Visit Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Denominational Ties -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Diocese &amp; Links</h4>
+          <ul class="footer-nav">
+            <li><a href="https://www.episcopalhawaii.org" target="_blank" rel="noopener noreferrer">Episcopal Diocese of Hawaiʻi <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a href="https://www.episcopalchurch.org" target="_blank" rel="noopener noreferrer">The Episcopal Church <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a href="https://www.anglicancommunion.org" target="_blank" rel="noopener noreferrer">The Anglican Communion <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a href="https://www.echa-hilo.org/mission--vision.html" target="_blank">Parish Profile 2026</a></li>
+            <li><a href="https://www.echa-hilo.org/who-we-are.html" target="_blank">Staff &amp; Leadership</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact & Hours -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Service Times</h4>
+          <div class="footer-hours-box">
+            <p><strong>Sundays:</strong><br>8:00 AM &amp; 10:00 AM HST<br><em>(3rd Sundays at 9:00 AM)</em></p>
+            <p><strong>Labyrinth Grounds:</strong><br>Open Daily: Sunrise to Sunset</p>
+            <p><strong>Office Phone:</strong><br><a href="tel:8089355545">(808) 935-5545</a></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div class="affirmation-badge">
+          <i class="fa-solid fa-rainbow"></i> All Are Welcome! No Exceptions &bull; Open &amp; Affirming
+        </div>
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> Episcopal Church of the Holy Apostles. 
+          1407 Kapiʻolani St, Hilo, HI 96720.
+        </p>
+        <div class="designer-note">
+          Crafted with Aloha
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
